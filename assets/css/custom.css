@@ -1,0 +1,29 @@
+.rowc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    padding:5px;
+    background-color: #EFD9BE;
+}
+.info .rowc{
+    flex-wrap: wrap;
+}
+.info .links {
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.info .links a {
+    text-decoration: none;
+    color:#090E1B;
+}
+.info .social-media {
+    display: flex;
+    gap:20px;
+}
+
+.searchBtn{
+    cursor: pointer;
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.32/sweetalert2.min.css"
+        integrity="sha512-IScV5kvJo+TIPbxENerxZcEpu9VrLUGh1qYWv6Z9aylhxWE4k4Fch3CHl0IYYmN+jrnWQBPlpoTVoWfSMakoKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <link rel="stylesheet" href="assets/css/book.css" />
+
+</head>
+
+<body>
+    <div class="overlay d-none">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <div class="jumping-circle"></div>
+        </div>
+    </div>
+    <a href="https://wa.link/jownjz" target="_blank">
+        <img src="./assets/img/whatsapp.png" class="whatsapp" />
+    </a>
+    <div class="info">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="social-media" id="platforms">
+                </div>
+                <nav class="links">
+                    <a href="contact.html">FAQs</a>
+                    <a href="contact.html">Help</a>
+                    <a href="contact.html">Support</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <nav class="nav-top">
+        <div class="container">
+            <div class="rowc">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <svg width="59" height="54" viewBox="0 0 59 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.8731 0.53077C31.9723 0.350079 32.3451 1.03055 32.7026 1.59954C36.837 8.13131 40.9448 14.6785 45.064 21.2179C45.9084 22.5596 46.7527 23.8975 47.6085 25.2316C47.9889 25.8236 48.2133 26.3234 47.4412 26.8347C41.8196 30.56 36.2056 34.3007 30.6068 38.0606C29.3555 38.9025 28.1498 39.8175 26.9403 40.7171C25.978 41.4322 25.2287 41.2438 24.5288 40.3058C20.5428 34.9812 16.5567 29.6604 12.5326 24.3627C10.4216 21.5831 8.26125 18.8343 6.07423 16.1124C4.80005 14.5247 4.79245 14.1979 6.53065 13.2714C14.2974 9.13472 22.068 5.02497 29.8385 0.915218C30.2265 0.71146 30.6639 0.603815 30.8731 0.53077Z"
+                                fill="#F39421" />
+                            <path
+                                d="M4.9178 36.0653C3.7197 41.1439 5.55679 44.2156 10.5888 45.4689C14.9134 46.5454 19.1619 45.838 23.3306 44.6654C32.3677 42.1204 40.1611 37.3955 46.6537 30.5562C49.0575 28.0265 51.1723 25.2508 52.4731 21.933C54.4357 16.9198 52.9675 13.3099 48.1295 11.2877C55.2953 10.0574 60.2702 15.2821 58.7146 22.4136C57.6154 27.4537 54.8617 31.5942 51.4803 35.2772C42.5421 45.0038 31.7097 51.3164 18.58 53.2079C15.0542 53.7154 11.4941 53.6231 8.04809 52.5312C2.05376 50.6282 -0.289197 45.9303 1.80654 39.9252C2.35044 38.3682 3.1796 36.915 3.87945 35.4118C4.41574 35.3234 4.67818 35.6809 4.9178 36.0692V36.0653Z"
+                                fill="#090E1B" />
+                            <path
+                                d="M23.2395 40.8748C19.8811 37.9453 16.9067 35.3618 13.94 32.7629C9.8398 29.1722 5.73962 25.5814 1.66986 21.9561C1.2781 21.6062 0.525008 21.3217 0.669541 20.6836C0.814075 20.0492 1.61281 20.1953 2.11107 19.9954C2.81472 19.7186 3.56401 19.5687 4.28668 19.3457C5.07781 19.0996 5.69778 19.1881 6.29112 19.9108C11.8138 26.6117 17.3669 33.2858 22.9086 39.9675C22.9809 40.0559 22.9923 40.1943 23.2357 40.8748H23.2395Z"
+                                fill="#F39421" />
+                            <path
+                                d="M20.246 40.5096C18.2301 40.1328 16.7772 38.8065 15.1911 37.7415C10.6117 34.6775 6.0665 31.5558 1.54793 28.3994C0.962195 27.9881 -0.578226 27.6882 0.228118 26.7233C0.965998 25.8429 2.42274 25.097 3.73875 26.1427C5.56444 27.5921 7.35589 29.0991 9.10931 30.6369C12.8367 33.9086 16.5338 37.2148 20.246 40.5096Z"
+                                fill="#F39421" />
+                            <path
+                                d="M4.91776 36.0653C4.67434 35.677 4.4119 35.3234 3.87941 35.4079C3.18717 34.4237 1.73423 34.5929 1.11426 33.5203C3.49525 32.0017 3.45341 31.5865 6.63695 33.8663C9.92698 36.2191 13.3159 38.4374 16.6592 40.7172C17.2107 41.0939 17.7432 41.5014 18.1844 42.0512C15.9593 41.6552 14.1261 40.4173 12.1711 39.4792C10.1324 38.4989 8.16596 37.3571 6.16912 36.2883C5.77736 36.0807 5.3856 35.8616 4.91776 36.0653Z"
+                                fill="#F39421" />
+                        </svg>
+                        <span>بلدية طولكرم</span>
+                    </a>
+
+                </div>
+
+
+                <div class="input">
+
+                    <div class="subscript-input">
+                        <input type="search" class="bookSearchName" placeholder="البحث" />
+                        <svg class="searchBtn" onClick="searchBook()" xmlns="http://www.w3.org/2000/svg" width="18"
+                            height="18" viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M7.11313 10.0676C6.83359 10.3095 6.43028 10.3445 6.11329 10.1543L1.28996 7.2603C0.663294 6.88431 0.766251 5.94641 1.45956 5.71531L16.2179 0.795863C16.8866 0.572959 17.5228 1.20915 17.2999 1.87787L12.3804 16.6362C12.1493 17.3295 11.2114 17.4325 10.8354 16.8058L7.94145 11.9825C7.75125 11.6655 7.78621 11.2622 8.02812 10.9826L12.3583 5.97872C12.4972 5.81823 12.2775 5.59853 12.117 5.73741L7.11313 10.0676Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                <div class="icons auth-icons d-none gap-2">
+                    <span class="cart-count"></span>
+                    <a href="cart.html">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <path
+                                d="M6.50488 2.5H17.5049C17.8196 2.5 18.116 2.64819 18.3049 2.9L21.0049 6.5V21.5C21.0049 22.0523 20.5572 22.5 20.0049 22.5H4.00488C3.4526 22.5 3.00488 22.0523 3.00488 21.5V6.5L5.70488 2.9C5.89374 2.64819 6.19013 2.5 6.50488 2.5ZM18.5049 6.5L17.0049 4.5H7.00488L5.50488 6.5H18.5049ZM9.00488 10.5H7.00488V12.5C7.00488 15.2614 9.24346 17.5 12.0049 17.5C14.7663 17.5 17.0049 15.2614 17.0049 12.5V10.5H15.0049V12.5C15.0049 14.1569 13.6617 15.5 12.0049 15.5C10.348 15.5 9.00488 14.1569 9.00488 12.5V10.5Z"
+                                fill="#090E1B" />
+                        </svg>
+                    </a>
+
+                    <a href="profile.html">
+                        <svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0 21.5C0 17.0817 3.58172 13.5 8 13.5C12.4183 13.5 16 17.0817 16 21.5H0ZM8 12.5C4.685 12.5 2 9.815 2 6.5C2 3.185 4.685 0.5 8 0.5C11.315 0.5 14 3.185 14 6.5C14 9.815 11.315 12.5 8 12.5Z"
+                                         fill="#090E1B" />
+                        </svg>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container_custom  justify-content-between d-flex flex-row-reverse">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="archive.html">سياسية الإستعارة</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="otherBooks.html">مكتبات اخرى </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="books.html">الكتب </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الصفحة الرئيسية</a>
+                    </li>
+
+                </ul>
+
+                <ul class="ms-auto navbar-nav" id="not-authLink">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">تسجيل الدخول</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">انشاء حساب </a>
+                    </li>
+
+                </ul>
+                <ul class="ms-auto navbar-nav hide-auth" id="authLink">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">أهلاً <span id="userName"></span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link logout" >تسجيل الخروج </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    تصنيفات الكتب
+                </button>
+                <ul class="dropdown-menu" id="categories">
+
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </header>
+
+
+    <div class="book-content mt-5">
+        <div class="container">
+            <div class="row" id="bookDetails">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+    <section class="subscribe">
+        <div class="container_custom">
+            <div class="row align-items-center">
+                <div class="col">
+                    <p>Subscribe to Our Newsletter - get a $20 Coupon for your first order! </p>
+
+                </div>
+                <div class="col-4">
+                    <div class="subscript-input">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M7.11313 10.0676C6.83359 10.3095 6.43028 10.3445 6.11329 10.1543L1.28996 7.2603C0.663294 6.88431 0.766251 5.94641 1.45956 5.71531L16.2179 0.795863C16.8866 0.572959 17.5228 1.20915 17.2999 1.87787L12.3804 16.6362C12.1493 17.3295 11.2114 17.4325 10.8354 16.8058L7.94145 11.9825C7.75125 11.6655 7.78621 11.2622 8.02812 10.9826L12.3583 5.97872C12.4972 5.81823 12.2775 5.59853 12.117 5.73741L7.11313 10.0676Z"
+                                fill="white" />
+                        </svg>
+                        <input type="email" placeholder="Enter your email address" />
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container_custom">
+            <div class="rowc">
+
+                <div class="left-side">
+
+                    <svg width="59" height="54" viewBox="0 0 59 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30.8731 0.53077C31.9723 0.350079 32.3451 1.03055 32.7026 1.59954C36.837 8.13131 40.9448 14.6785 45.064 21.2179C45.9084 22.5596 46.7527 23.8975 47.6085 25.2316C47.9889 25.8236 48.2133 26.3234 47.4412 26.8347C41.8196 30.56 36.2056 34.3007 30.6068 38.0606C29.3555 38.9025 28.1498 39.8175 26.9403 40.7171C25.978 41.4322 25.2287 41.2438 24.5288 40.3058C20.5428 34.9812 16.5567 29.6604 12.5326 24.3627C10.4216 21.5831 8.26125 18.8343 6.07423 16.1124C4.80005 14.5247 4.79245 14.1979 6.53065 13.2714C14.2974 9.13472 22.068 5.02497 29.8385 0.915218C30.2265 0.71146 30.6639 0.603815 30.8731 0.53077Z"
+                            fill="#F39421" />
+                        <path
+                            d="M4.9178 36.0653C3.7197 41.1439 5.55679 44.2156 10.5888 45.4689C14.9134 46.5454 19.1619 45.838 23.3306 44.6654C32.3677 42.1204 40.1611 37.3955 46.6537 30.5562C49.0575 28.0265 51.1723 25.2508 52.4731 21.933C54.4357 16.9198 52.9675 13.3099 48.1295 11.2877C55.2953 10.0574 60.2702 15.2821 58.7146 22.4136C57.6154 27.4537 54.8617 31.5942 51.4803 35.2772C42.5421 45.0038 31.7097 51.3164 18.58 53.2079C15.0542 53.7154 11.4941 53.6231 8.04809 52.5312C2.05376 50.6282 -0.289197 45.9303 1.80654 39.9252C2.35044 38.3682 3.1796 36.915 3.87945 35.4118C4.41574 35.3234 4.67818 35.6809 4.9178 36.0692V36.0653Z"
+                            fill="#090E1B" />
+                        <path
+                            d="M23.2395 40.8748C19.8811 37.9453 16.9067 35.3618 13.94 32.7629C9.8398 29.1722 5.73962 25.5814 1.66986 21.9561C1.2781 21.6062 0.525008 21.3217 0.669541 20.6836C0.814075 20.0492 1.61281 20.1953 2.11107 19.9954C2.81472 19.7186 3.56401 19.5687 4.28668 19.3457C5.07781 19.0996 5.69778 19.1881 6.29112 19.9108C11.8138 26.6117 17.3669 33.2858 22.9086 39.9675C22.9809 40.0559 22.9923 40.1943 23.2357 40.8748H23.2395Z"
+                            fill="#F39421" />
+                        <path
+                            d="M20.246 40.5096C18.2301 40.1328 16.7772 38.8065 15.1911 37.7415C10.6117 34.6775 6.0665 31.5558 1.54793 28.3994C0.962195 27.9881 -0.578226 27.6882 0.228118 26.7233C0.965998 25.8429 2.42274 25.097 3.73875 26.1427C5.56444 27.5921 7.35589 29.0991 9.10931 30.6369C12.8367 33.9086 16.5338 37.2148 20.246 40.5096Z"
+                            fill="#F39421" />
+                        <path
+                            d="M4.91776 36.0653C4.67434 35.677 4.4119 35.3234 3.87941 35.4079C3.18717 34.4237 1.73423 34.5929 1.11426 33.5203C3.49525 32.0017 3.45341 31.5865 6.63695 33.8663C9.92698 36.2191 13.3159 38.4374 16.6592 40.7172C17.2107 41.0939 17.7432 41.5014 18.1844 42.0512C15.9593 41.6552 14.1261 40.4173 12.1711 39.4792C10.1324 38.4989 8.16596 37.3571 6.16912 36.2883C5.77736 36.0807 5.3856 35.8616 4.91776 36.0653Z"
+                            fill="#F39421" />
+                    </svg>
+
+                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
+                        حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                        التطبيق.إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد </p>
+                </div>
+                <div class="right-side">
+                    <div class="footer-item">
+                        <h2>الصفحات</h2>
+                        <nav>
+                            <a href="archive.html">سياسة الاستعارة</a>
+                            <a href="cart.html">سلة الشراء</a>
+                            <a href="contact.html">تواصل معنا</a>
+
+                        </nav>
+                    </div>
+
+                    <div class="footer-item">
+                        <h2>المساعدة والدعم</h2>
+                        <nav>
+                            <a href="contact.html">الاسئلة الشائعة </a>
+                            <a href="#">اتصل بنا : 0595598509 </a>
+                            <a href="#">البريد الإلكتروني : ahmed.debas99@gmail.com</a>
+
+                        </nav>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.32/sweetalert2.min.js"
+        integrity="sha512-3PL7jW3xI1EjF2Hfqwv5u6nKG/BnUbWytnJDhsY/q5CbIB5XzoHNhJvgmFeVD7xgC9DbKDm+gPP9uDAAfLAZUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/otherBook.js"></script>
+
+    <script>
+        displayBook();
+    </script>
+</body>
+
+</html>

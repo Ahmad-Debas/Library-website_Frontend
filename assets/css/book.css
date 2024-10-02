@@ -1,0 +1,80 @@
+.book-content{
+    padding:40px 0;
+}
+.divider{
+    height:2px;
+    background-color: #909192;
+}
+.book-info{
+    padding:30px;
+}
+
+.quantity button {
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.quantity .test span{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    padding:6px 10px;;
+}
+.quantity .test{
+    border:2px solid#969696;
+    border-radius:10px;
+}
+
+.cart{
+    background-color: var(--mainColor);
+    border:0;
+    color:#fff;
+    padding:10px;
+    border-radius:8px;
+}
+
+
+
+.reviews {
+    margin-top: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.add-comment-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

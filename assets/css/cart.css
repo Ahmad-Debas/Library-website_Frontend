@@ -1,0 +1,67 @@
+.cart{
+    padding:40px 0;
+}
+.divider{
+    height:2px;
+    background-color: #909192;
+}
+.cart .row{
+    padding:20px 0;
+}
+.book-details{
+    background-color: transparent;
+}
+.book-details:hover{
+    background-color: transparent;
+}
+.quantity button {
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.quantity .test span{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    padding:6px 10px;;
+}
+.quantity .test{
+    border:2px solid#969696;
+    border-radius:10px;
+    margin:auto;
+    width:fit-content
+}
+.cart-summary{
+    padding:40px 0;
+    border:1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius:8px;
+    align-items: center;
+}
+.cart-summary .title{
+    background-color: #EFD9BE;
+    border-radius:8px;
+    font-size:16px;
+    padding:10px 30px;
+}
+
+.cart .cart-info .row:first-of-type{
+    background-color: #EFD9BE;
+    border-radius: 8px;
+}
+.cart .cart-info h2{
+    font-size:20px;
+}
+.cart .cart-summary h2{
+    font-size:20px;
+}
+
+.btn-cart{
+    border:0;
+    border-radius:30px;
+    background-color: var(--mainColor);
+    padding:20px;
+    font-size:20px;
+}
+

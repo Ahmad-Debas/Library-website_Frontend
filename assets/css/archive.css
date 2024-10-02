@@ -1,0 +1,40 @@
+.archive-header,.result-archive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    gap:10px;
+    border:1px solid #909192;
+    margin:40px;
+    text-align: center;
+}
+
+.archive-header h1{
+    font-size:18px;
+}
+
+.archive-buttons {
+    display: flex;
+    gap:20px;
+}
+.archive-buttons button{
+    border: 1px solid  #909192;
+    background-color: #fff;
+    font-size:10px;
+    padding: 10px 54px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+
+.section-hidden{
+    display: none;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
